@@ -34,7 +34,6 @@ h1 {
   margin-bottom: 0px;
 }
 #nav-list a {
-  text-align: center;
   background: #FFF;
   color: #000;
 }
@@ -70,3 +69,14 @@ h3 {
   margin-top: 0px;
 }
 /* HOME PAGE */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  section {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  h1 {
+    margin-left: 35px;
+  }
+}
